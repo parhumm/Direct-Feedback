@@ -1,0 +1,526 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2019-07-05 10:18:16",
+    "containerVersion": {
+        "path": "accounts/4702314753/containers/12336062/versions/7",
+        "accountId": "4702314753",
+        "containerId": "12336062",
+        "containerVersionId": "7",
+        "container": {
+            "path": "accounts/4702314753/containers/12336062",
+            "accountId": "4702314753",
+            "containerId": "12336062",
+            "name": "parhum.net",
+            "publicId": "GTM-MDMK4WT",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1562321569709",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/4702314753/containers/12336062/workspaces?apiLink=container"
+        },
+        "tag": [
+            {
+                "accountId": "4702314753",
+                "containerId": "12336062",
+                "tagId": "2",
+                "name": "HXA - Direct Feedback - Form",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<!-- HXA - Direct Feedback - Form -->\n\n<div id=\"js__hxa-df\" class=\"hxa-df\">\n\t<style>\n\t\t.hxa-df {\n\t\t\tposition: fixed;\n\t\t\tleft: 2%;\n\t\t\tz-index: 100;\n\t\t\tbackground: #333;\n\t\t\tcolor: #fff;\n\t\t\tpadding: 15px;\n\t\t\twidth: 275px;\n\t\t\tbox-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);\n\t\t\tborder-radius: 10px;\n\t\t\ttransition: all 250ms ease;\n\n\t\t\tbottom: -350px;\n\t\t\topacity: 0;\n\t\t}\n\n\t\t.hxa-df.active {\n\t\t\tbottom: 5%;\n\t\t\topacity: 1;\n\t\t}\n\n\t\t.hxa-df.sent {\n\t\t\tbackground: #19ab56;\n\t\t}\n\n\n\t\t.hxa-df.sent input,\n\t\t.hxa-df.sent .from,\n\t\t.hxa-df.sent .title,\n\t\t.hxa-df.sent .hxa-df-close-btn {\n\t\t\tdisplay: none;\n\t\t}\n\n\t\t.hxa-df .thankyou {\n\t\t\tdisplay: none;\n\t\t}\n\n\t\t.hxa-df.sent .thankyou {\n\t\t\tdisplay: block;\n\t\t\ttext-align: center;\n\t\t\tfont-weight: bold;\n\t\t\tfont-size: 19px;\n\t\t\tline-height: 1.3;\n\t\t}\n\n\t\t.hxa-df.sent .hxa-df-close-btn {\n\t\t\tdisplay: none;\n\t\t}\n\t\t\n\t\t.hxa-df .title {\n\t\t\tfont-weight: bold;\n\t\t\tfont-size: 20px;\n\t\t\tmargin-bottom: 10px;\n\t\t}\n\t\t\n\t\t.hxa-df .from {\n\t\t\t\n\t\t}\n\t\t.hxa-df .desc {\n\t\t\tmargin-bottom: 10px;\n\t\t\twidth: 255px;\n\t\t\tbackground: #FFFFFF;\n\t\t\tborder: 1px solid #000000;\n\t\t\tfont-family: HelveticaNeue;\n\t\t\tfont-size: 16px;\n\t\t\tpadding: 10px;\n\t\t\tcolor: #000;\n\t\t\tborder-radius: 3px;\n\t\t}\n      \n        .hxa-df .actions {\n          font-size: 12px;\n        }\n\n        .hxa-df-good,\n\t\t.hxa-df .submit {\n\t\t\tfont-size: 15px;\n\t\t\ttransition: all 200ms ease-in;\n\t\t\ttext-decoration: none;\n\t\t}\n\n\t\t.hxa-df .submit {\n\t\tfloat: right;\n\t\tborder-radius: 3px;\n\t\tmargin-top: 4px;\n\t\tborder: 0 none;\n\t\tcolor: #fff;\n\t\tpadding: 6px 12px;\n\t\tbackground: #676767;\n\t\tbox-shadow: 0 1px 4px 0 rgba(0,0,0,0.50);\n      }\n\n\t\t.hxa-df .submit:hover,\n\t\t.hxa-df .submit:focus {\n\t\t\tbackground-color: #127f40;\n\t\t}\n\n\t\t.hxa-df-good {\n\t\t    float: left;\n\t\t    color: #eee;\n\t\t    line-height: 35px;\n\t\t    transition: color 150ms ease;\n\t\t}\n\n\t\t.hxa-df-good:hover {\n\t\t    color: #d55a4a;\n\t\t}\n\n\t\t.hxa-df-close-btn {\n\t\t\tposition: absolute;\n\t\t\tright: -15px;\n\t\t\ttop: -15px;\n\t\t\tdisplay: block;\n\t\t\ttext-align: center;\n\t\t\tbackground: #D8D8D8;\n\t\t\tborder: solid 1px #fff;\n\t\t\twidth: 30px;\n\t\t\theight: 30px;\n\t\t\tline-height: 29px;\n\t\t\tborder-radius: 50px;\n\t\t}\n\t\t.hxa-df-close-btn:hover {\n    \t\tbackground: #ccc;\n\t\t}\n\n\t\t.hxa-df-close-btn .icon {\n\t\t\twidth: 12px;\n\t\t\theight: 12px;\n\t\t\tvertical-align: middle;\n\t\t\tdisplay: inline-block;\n\t\t\tbackground-repeat: no-repeat;\n\t\t\tbackground-size: cover;\n\t\t}\n\n\t\t.hxa-df-good-icon {\n\t\t    width: 25px;\n\t\t    height: 22px;\n\t\t    vertical-align: middle;\n\t\t    margin-right: 5px;\n\t\t    display: inline-block;\n\t\t    background-size: cover;\n\t\t    background-repeat: no-repeat;\n\t\t}\n\n\t\t.hxa-df-close-btn .icon {\n\t\t\tbackground-image:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAAGz7rX1AAAABGdBTUEAALGPC/xhBQAAAWVJREFUSA29VFtOwzAQ3HIDToH4QEI8bsQhAVF6IzgCeLaedLJZGyetsJR4H7MztrOOmdlteThuaPwUA49dMaKzlqitmCHbJQQZfU8NBSfQp9DRfN8V67t613X+KvMOCQwmj54ZQe6De+JvVmQaE222Ko8dKveE5ArCjNViDR8aRxGCsbgV11ovQjGfSJJ/+hlF4mi/cBmA4XT4wF8s+5AFgQyDpH56+5K8D4DMvSvBVyS42ecMVWMPgjMAe0WPWb5VlIKr6kLpKWMmmLMq9ZZJvM8v5U0w7O5YpaBg2NGfKbWSaTwNCt0izw0i0RpaZKO9hH4D1l9UQVf2lID/a6DveM3B+4YCqLHlzxGL5OAC7+z2YAdbxNDXunKSd09kVAz3YMuiStlptMTQ/meTn2SOVia26tvpTzSS/4uf7QDHdJHjapEjrmMUpzV+Cbd80CGxS13GlphfRvxbVnXLbP9LJ4rtfwGe7ctctIE+BgAAAABJRU5ErkJggg==');\n\t\t}\n\n\t\t.hxa-df-good-icon {\n\t\t    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAiCAYAAAGrafAQAAAABGdBTUEAALGPC/xhBQAABLRJREFUWAnNWEtsG0UYnn/shCSOqjY8WmguaaHUmwMHRAsH4JAKUT8qKDhItoOKKOFQIaAHTggCEgckhEAVCIVXKbYPrYTSJHZV9aHSC48bB68bEKkgbZUcQFWQ86C2h/+fdja7s+usYxrCHPy/vv8xj/131ozhuDIY7yCqBhBTTEaEUhDldkHxUonwU0rRmytIbymXUvGYMkhaTEcfJqaUjj9FFPQkpHQlAmATrpIciexhXEiKqY917aFbYXL/no3zc5Vp3ajLfMtnozOcgSxZNyqZ6lmaOWqxpi+QPGcHKN6iZir2pCUgYyYjj0wPDISUDqaeT3TNzpf/UAovSqm5H0g5ulZXGez04r7IJpwwlOxKL77ncGGa92bzhpdR6QLAE8Rby2PfLgVCehYn0keyVaNjkyUSsgokRf2HIl9IxZ7W9Vbq+nsOk725/FZyNFPRSSFEjx6kvSO4iY4C6WXAOvPQ/XxlmiaYqfiDQlS/80U3AAAIPHTTK5S74t6RBsrRIEY2L2M5thkAvtJwviL6ZOTaAchWJaese5mpyEkh2GO63i5joDNY1S67jnjPgAqEz+5rQtTeVTJRDvBmOJt/266z866AxYHITl6FzW2tLWd7Do9ctYOJ/y0Z3TAP0FdjcMnIjn1vt1vBcIoFnOJuu5F4BDxq5ArnqavgAn3rsgM7YWQLkRtYefIv4cnfrAOVjB1uHBM5m7oyIsV1vIzr2A0Tz8Z2VCq1H2y2pthgkO/klao42ZS35kRxOBNivaZvTsQ41gFuLoLTi+NuHXGqmpMA+NcgjiYC5ki50lyIJS/jiVCQQ/+xKm7tuSX1yjn0Py/jKNd/0zxVF7KeAAraTEAViPwdu9nRekc7KRsd6zaG3Fcou/PUq4n22ZnynF3nxW/oDITuGh5z4BzTVE5+O2xs29ECQ0OuE+AZTAX1WkP7Gimcoo41U0pFr7dmNitlYOXlAhGmbmXFVKwPWO0VxOzC9tMmA974AQZVZH8EJoa3d3ZnYXj4mt1OvBgcbJmYu5KuCfEiig9gi3MUjm1tAdOfYYJ9YOTyp3V/kh3FXUjvubcmqie8bglezkqHDwE2cjhoZMY/NNOxl7EZva8Xo7D1KMa4yCGwe3tmdEJhrOKKyehRnK+8binj2lA4htepfsotlxrvVJ//PwqjkkTiej24rfUvhARcu0GXTT5/Tdy2diXUz7ywWL2dGz33l/AwLvtpUj/Eqln+DMc7Shw7Hz5pfP+qpWkiMH5RvUCvQPlAGJmxEb9vyiZyNOkC/eFc/htytloJCb+k9nb/LRZ+QraL5P90AFxtC/D7th4Z+13ldRSnlMVU9C1spG8oebUpnvl38JL7up7HszgC0evHLF8exSIf151ulozJT4U7u6Nerz/KUbc4VQDdT/6amRsVTLg+gxRmpRRX6tz6EI/q9xk9jm9xykEMJVrNn8s5lJf9M0bhvSgWdbyla8sz9xw6tOhl13UNF6cc8YWOH/PR91A+qHR+FG8gH4Uz+ZewOMefbr5+foDl7KVkZF+NsU8RE9RxWEhNMDjQmx3/RLc1Kq945bwCm+m9dzKxeADvfdvw6vTrLa2Bj+/+8viUF3Ylun8AcvWI3/6T4zwAAAAASUVORK5CYII=');\n\t\t}\n\t</style>\n\n\t<div class=\"inner\">\n\t\t<a href=\"#\" class=\"hxa-df-close-btn\" onclick=\"closehxaDF(event);\"><span class=\"icon\"></span></a>\n\t\t<div id=\"js__hxa-df-title\" class=\"title\"></div>\n\t\t<div  class=\"from\">\n\t\t\t<input type=\"text\" name=\"desc\" id=\"js__hxa-df-input\" class=\"desc\">\n\t\t\t<div class=\"actions clearfix\">\n\t\t\t\t<a href=\"#\" class=\"hxa-df-good\" onclick=\"closehxaDFGood(event);\"><span class=\"hxa-df-good-icon\"></span><span id=\"js__hxa-df-good\"></span></a>\n\t\t\t\t<a href=\"#\" class=\"submit\" id=\"js__hxa-df-submit\" onclick=\"senthxaDF(event);\"></a>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"thankyou\" id=\"js__hxa-df-thanks\"></div>\n\t</div>\n\n\t<script type=\"text/javascript\">\n        for (var i = 0; i < window.hxa.dF.label.length; i++) {\n          if (!window.hxa.dF.label[i]) {\n            window.hxa.dF.label[i] = '-';\n          }\n        }\n\n\t\tvar $hxaDF = $('#js__hxa-df'),\n\n      \t\t$hxaDFTitle = $('#js__hxa-df-title'),\n      \t\t$hxaDFInput = $('#js__hxa-df-input'),\n      \t\t$hxaDFGoodButton = $('#js__hxa-df-good'),\n      \t\t$hxaDFSubmitButton = $('#js__hxa-df-submit'),\n      \t\t$hxaDFThanks = $('#js__hxa-df-thanks'),\n\n\t\t\teventhxaDF = {\n\t\t\t\tname: 'hxa-df-send-data',\n\t\t\t\tcategory: 'HXA - Direct Feedback',\n\t\t\t},\n\n\t\t\tclosehxaDF = function(e) {\n\t\t\t\tif (typeof e !== 'undefined') {\n\t\t\t\t\te.preventDefault();\t\n\n\t\t\t\t\tvar eventAction = 'Close',\n\t\t\t\t\t\teventLabel = eventAction;\n\n\t\t\t\t\tif (window.hxa.dF.label.length) {\n\t\t\t\t\t\teventLabel += window.hxa.dF.seperator + window.hxa.dF.label.join(window.hxa.dF.seperator);\n\t\t\t\t\t}\n\n\t\t\t\t\tdataLayer.push({\n\t\t\t\t\t\t'event': eventhxaDF.name,\n\t\t\t\t\t\t'hxa_category': eventhxaDF.category,\n\t\t\t\t\t\t'hxa_action': eventAction,\n\t\t\t\t\t\t'hxa_label': eventLabel,\n\t\t\t\t\t\t'hxa_noninteracion': true,\n\t\t\t\t\t});\n\t\t\t\t}\n\n\t\t\t\t$hxaDF.removeClass('active');\n\t\t\t},\n\n\t\t\tclosehxaDFGood = function(e) {\n\t\t\t\tif (typeof e !== 'undefined') {\n\t\t\t\t\te.preventDefault();\n\n\t\t\t\t\tvar eventAction = 'Good',\n\t\t\t\t\t\teventLabel = eventAction;\n\n\t\t\t\t\tif (window.hxa.dF.label.length) {\n\t\t\t\t\t\teventLabel += window.hxa.dF.seperator + window.hxa.dF.label.join(window.hxa.dF.seperator);\n\t\t\t\t\t}\n\n\t\t\t\t\tdataLayer.push({\n\t\t\t\t\t\t'event': eventhxaDF.name,\n\t\t\t\t\t\t'hxa_category': eventhxaDF.category,\n\t\t\t\t\t\t'hxa_action': eventAction,\n\t\t\t\t\t\t'hxa_label': eventLabel,\n\t\t\t\t\t\t'hxa_noninteracion': false,\n\t\t\t\t\t});\n\t\t\t\t}\n\n\t\t\t\t$hxaDF.removeClass('active');\n\t\t\t},\n\n\t\t\topenhxaDF = function() {\n\t\t\t\t$hxaDF.addClass('active');\n\n\t\t\t\tvar eventAction = 'View',\n\t\t\t\t\teventLabel = eventAction;\n\n\t\t\t\tif (window.hxa.dF.label.length) {\n\t\t\t\t\teventLabel += window.hxa.dF.seperator + window.hxa.dF.label.join(window.hxa.dF.seperator);\n\t\t\t\t}\n\n\t\t\t\tdataLayer.push({\n\t\t\t\t\t'event': eventhxaDF.name,\n\t\t\t\t\t'hxa_category': eventhxaDF.category,\n\t\t\t\t\t'hxa_action': eventAction,\n\t\t\t\t\t'hxa_label': eventLabel,\n\t\t\t\t\t'hxa_noninteracion': true,\n\t\t\t\t});\n\t\t\t},\n\n\t\t\tsenthxaDF = function(e) {\n\t\t\t\te.preventDefault();\n\t\t\t\tif ($hxaDFInput.val() !== '' && $hxaDFInput.val() !== ' ') {\n\t\t\t\t\t$hxaDF.addClass('sent');\n\t\t\t\t\t\n\t\t\t\t\tvar eventLabel = $hxaDFInput.val();\n\n\t\t\t\t\tif (window.hxa.dF.label.length) {\n\t\t\t\t\t\teventLabel += window.hxa.dF.seperator + window.hxa.dF.label.join(window.hxa.dF.seperator);\n\t\t\t\t\t}\n\n\t\t\t\t\tdataLayer.push({\n\t\t\t\t\t\t'event': eventhxaDF.name,\n\t\t\t\t\t\t'hxa_category': eventhxaDF.category,\n\t\t\t\t\t\t'hxa_action': 'Feedback',\n\t\t\t\t\t\t'hxa_label': eventLabel,\n\t\t\t\t\t\t'hxa_noninteracion': false,\n\t\t\t\t\t});\n\n\t\t\t\t\tsetTimeout(function() {\n\t\t\t\t\t\tclosehxaDF();\n\t\t\t\t\t}, 3000);\t\n\t\t\t\t} else {\n\t\t\t\t\t$hxaDFInput.addClass('flash_in');\n\t\t\t\t\tsetTimeout(function(){\n\t\t\t\t\t\t$hxaDFInput.removeClass('flash_in');\n\t\t\t\t\t}, 500);\n\t\t\t\t}\n\t\t\t};\n\n\t\t$hxaDFTitle.html(window.hxa.dF.form.title);\n      \t$hxaDFInput.attr('placeholder', window.hxa.dF.form.placeholder);\n\t\t$hxaDFGoodButton.html(window.hxa.dF.form.good_button);\n\t\t$hxaDFSubmitButton.html(window.hxa.dF.form.submit_button);\n\t\t$hxaDFThanks.html(window.hxa.dF.form.thank_you);\n\n\t\tsetTimeout(function() {\n\t\t\topenhxaDF();\n\t\t}, window.hxa.dF.delay);\n\t</script>\n</div>"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1562321509879",
+                "firingTriggerId": [
+                    "5"
+                ],
+                "setupTag": [
+                    {
+                        "tagName": "HXA - Direct Feedback - Settings",
+                        "stopOnSetupFailure": true
+                    }
+                ],
+                "parentFolderId": "9",
+                "tagFiringOption": "ONCE_PER_LOAD"
+            },
+            {
+                "accountId": "4702314753",
+                "containerId": "12336062",
+                "tagId": "1",
+                "name": "HXA - Direct Feedback - SDK",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<!-- HXA - Direct Feedback - SDK -->\n\n<script>\n\t// Define global variable of HXA SDK, DON'T DELETE THIS LINE\n\twindow.hxa = (window.hxa ? window.hxa : {});\n\n\t// Define Direct Feedback Settings\n\twindow.hxa.dF = {};\n\twindow.hxa.dF.form = {\n\t\ttitle: 'Criticize our website!',\n\t\tplaceholder: 'Writing here...',\n\t\tgood_button: 'Good, no criticism',\n\t\tsubmit_button: 'Send Criticism',\n\t\tthank_you: 'Thank you for helping us improve our service, we will try to solve your problem :)',\n\t};\n\twindow.hxa.dF.delay = 3000;\n\twindow.hxa.dF.seperator = '||';\n\n\n\twindow.hxa.getScript = function(url, success) {\n\t\tvar script     = document.createElement('script');\n\t\t     script.src = url;\n\t\t\n\t\tvar head = document.getElementsByTagName('head')[0],\n\t\tdone = false;\n\t\t\n\t\t// Attach handlers for all browsers\n\t\tscript.onload = script.onreadystatechange = function() {\n\t\t\tif (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) {\n\t\t\t\tdone = true;\n\t\t\t\t\n\t\t\t\t// callback function provided as param\n\t\t\t\tsuccess();\n\t\t\t\t\n\t\t\t\tscript.onload = script.onreadystatechange = null;\n\t\t\t\thead.removeChild(script);\n\t\t\t};\n\t\t};\n\t\t\n\t\thead.appendChild(script);\n\t};\n\n\t// Add additional information of your users here\n\twindow.hxa.dF.label = [];\n\n\t// This function return today date for set on users localstorage\n\twindow.hxa.dF.today = function() {\n\t\tvar dateObj = new Date(),\n\t\t    month = dateObj.getUTCMonth() + 1,\n\t\t    day = dateObj.getUTCDate(),\n\t\t    year = dateObj.getUTCFullYear();\n\n\t\treturn (year + '/' + month + '/' + day);\n\t};\n\n\t// This function decide to show or not to show Feedback Form\n\twindow.hxa.dF.decideToShow = function() {\n\t\tif (typeof(Storage) !== 'undefined') {\n\t\t\tif (localStorage.hxaDirectFeedback == undefined) {\n\t\t\t\t// New Users\n\t\t\t\tlocalStorage.hxaDirectFeedback = 'enable-' + window.hxa.dF.today();\n\n\t\t\t\tdataLayer.push({\n\t\t\t\t\t'event': 'hxa-direct-feedback-show',\n\t\t\t\t});\n\t\t\t\t// return 'enable';\n\t\t\t} else {\n\t\t\t\t// Returning Users\n\t\t\t\t// return 'disable';\n\t\t\t}\n\t\t} else {\n\t\t\t// Sorry! No Web Storage support..\n\t\t\t// return 'disable';\n\t\t}\n\n\t\treturn;\n\t};\n\n\t// Only do anything if jQuery isn't defined\n\tif (typeof jQuery == 'undefined') {\n\t\twindow.hxa.getScript('http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js', function() {\n\t\t\tif (typeof jQuery=='undefined') {\n\n\t\t\t\t// Super failsafe - still somehow failed...\n\t\t\t} else {\n\t\t\t\t// Run your jQuery Code\n\t\t\t\twindow.hxa.dF.decideToShow();\n\t\t\t}\n\t\t\n\t\t});\n\t} else { // jQuery was already loaded\n\t\t// Run your jQuery Code\n\t\twindow.hxa.dF.decideToShow();\n\t};\n</script>"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1562320029392",
+                "firingTriggerId": [
+                    "11"
+                ],
+                "parentFolderId": "9",
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "4702314753",
+                "containerId": "12336062",
+                "tagId": "3",
+                "name": "HXA - Direct Feedback - Send",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "nonInteraction",
+                        "value": "{{HXA - Data Layer - Non-Interaction Hit}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventValue",
+                        "value": "{{HXA - Data Layer - Value}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "{{HXA - Data Layer - Category}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{HXA - Google Analytics Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "{{HXA - Data Layer - Action}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{HXA - Data Layer - Label}}"
+                    }
+                ],
+                "fingerprint": "1562304338304",
+                "firingTriggerId": [
+                    "7"
+                ],
+                "parentFolderId": "9",
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "4702314753",
+                "containerId": "12336062",
+                "tagId": "4",
+                "name": "HXA - Direct Feedback - Settings",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<!-- HXA - Direct Feedback - Settings -->\n\n<script type=\"text/javascript\">\n  //\n  // Box Texts\n  // Uncomment each option that you want changed\n  //\n\n  window.hxa.dF.form.title = 'Criticize YOUR WEBSITE NAME HERE!';\n  // window.hxa.dF.form.placeholder = 'Writing here...';\n  // window.hxa.dF.form.good_button = 'Good, no criticism';\n  // window.hxa.dF.form.submit_button = 'Send Criticism';\n  // window.hxa.dF.form.thank_you = 'Thank you for helping us improve our service, we will try to solve your problem :)';\n\n\n  //\n  // Example of user information\n  //\n  \n  // Set a JS variabel in your site to show user 'is-login' or 'not-login' and then use instead of 'userLoginState'\n  window.hxa.dF.label.push('userLoginState'); \n  \n  // Set a JS variabel in your site to show user has 'Premium', 'Trial' or 'Basic' and then use instead of 'userAccountType'\n  window.hxa.dF.label.push('userAccountType');\n\n  // Delay to show Form\n  // window.hxa.dF.delay = 3000; // ms\n\n  // Information Seperator\n  window.hxa.dF.seperator = '||';\n</script>"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1562321686999",
+                "firingTriggerId": [
+                    "5"
+                ],
+                "parentFolderId": "9",
+                "tagFiringOption": "ONCE_PER_LOAD"
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "4702314753",
+                "containerId": "12336062",
+                "triggerId": "11",
+                "name": "All Pages - Dom Ready",
+                "type": "DOM_READY",
+                "fingerprint": "1562313902835"
+            },
+            {
+                "accountId": "4702314753",
+                "containerId": "12336062",
+                "triggerId": "7",
+                "name": "HXA - Direct Feedback - Send Data",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "hxa-df-send-data"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1562316907107",
+                "parentFolderId": "9"
+            },
+            {
+                "accountId": "4702314753",
+                "containerId": "12336062",
+                "triggerId": "5",
+                "name": "HXA - Direct Feedback - Show",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "hxa-direct-feedback-show"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1562304060156",
+                "parentFolderId": "9"
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "4702314753",
+                "containerId": "12336062",
+                "variableId": "3",
+                "name": "HXA - Data Layer - Action",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "hxa_action"
+                    }
+                ],
+                "fingerprint": "1562304037826",
+                "parentFolderId": "8",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4702314753",
+                "containerId": "12336062",
+                "variableId": "2",
+                "name": "HXA - Data Layer - Category",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "hxa_category"
+                    }
+                ],
+                "fingerprint": "1562304037825",
+                "parentFolderId": "8",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4702314753",
+                "containerId": "12336062",
+                "variableId": "4",
+                "name": "HXA - Data Layer - Label",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "hxa_label"
+                    }
+                ],
+                "fingerprint": "1562304037826",
+                "parentFolderId": "8",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4702314753",
+                "containerId": "12336062",
+                "variableId": "6",
+                "name": "HXA - Data Layer - Non-Interaction Hit",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "defaultValue",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "hxa_noninteracion"
+                    }
+                ],
+                "fingerprint": "1562304365977",
+                "parentFolderId": "8",
+                "formatValue": {
+                    "convertNullToValue": {
+                        "type": "TEMPLATE",
+                        "value": "True"
+                    },
+                    "convertUndefinedToValue": {
+                        "type": "TEMPLATE",
+                        "value": "True"
+                    },
+                    "convertTrueToValue": {
+                        "type": "TEMPLATE",
+                        "value": "True"
+                    },
+                    "convertFalseToValue": {
+                        "type": "TEMPLATE",
+                        "value": "False"
+                    }
+                }
+            },
+            {
+                "accountId": "4702314753",
+                "containerId": "12336062",
+                "variableId": "5",
+                "name": "HXA - Data Layer - Value",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "defaultValue",
+                        "value": "0"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "hxa_label"
+                    }
+                ],
+                "fingerprint": "1562304037826",
+                "parentFolderId": "8",
+                "formatValue": {
+                    "convertNullToValue": {
+                        "type": "TEMPLATE",
+                        "value": "0"
+                    },
+                    "convertUndefinedToValue": {
+                        "type": "TEMPLATE",
+                        "value": "0"
+                    },
+                    "convertTrueToValue": {
+                        "type": "TEMPLATE",
+                        "value": "0"
+                    },
+                    "convertFalseToValue": {
+                        "type": "TEMPLATE",
+                        "value": "0"
+                    }
+                }
+            },
+            {
+                "accountId": "4702314753",
+                "containerId": "12336062",
+                "variableId": "7",
+                "name": "HXA - Google Analytics ID",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "UA-xxxxxxxx-xx"
+                    }
+                ],
+                "fingerprint": "1562321228279",
+                "parentFolderId": "8",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4702314753",
+                "containerId": "12336062",
+                "variableId": "1",
+                "name": "HXA - Google Analytics Settings",
+                "type": "gas",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cookieDomain",
+                        "value": "auto"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "doubleClick",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setTrackerName",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useDebugVersion",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useHashAutoLink",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "decorateFormsAutoLink",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableLinkId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "{{HXA - Google Analytics ID}}"
+                    }
+                ],
+                "fingerprint": "1562321212768",
+                "parentFolderId": "8"
+            }
+        ],
+        "folder": [
+            {
+                "accountId": "4702314753",
+                "containerId": "12336062",
+                "folderId": "9",
+                "name": "HXA - Direct Feedback",
+                "fingerprint": "1562304056624"
+            },
+            {
+                "accountId": "4702314753",
+                "containerId": "12336062",
+                "folderId": "8",
+                "name": "HXA - SDK",
+                "fingerprint": "1562304020684"
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "4702314753",
+                "containerId": "12336062",
+                "type": "PAGE_URL",
+                "name": "Page URL"
+            },
+            {
+                "accountId": "4702314753",
+                "containerId": "12336062",
+                "type": "PAGE_HOSTNAME",
+                "name": "Page Hostname"
+            },
+            {
+                "accountId": "4702314753",
+                "containerId": "12336062",
+                "type": "PAGE_PATH",
+                "name": "Page Path"
+            },
+            {
+                "accountId": "4702314753",
+                "containerId": "12336062",
+                "type": "REFERRER",
+                "name": "Referrer"
+            },
+            {
+                "accountId": "4702314753",
+                "containerId": "12336062",
+                "type": "EVENT",
+                "name": "Event"
+            }
+        ],
+        "fingerprint": "1562321865232",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/4702314753/containers/12336062/versions/7?apiLink=version"
+    }
+}
